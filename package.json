@@ -1,0 +1,17 @@
+{
+  "name": "elven-wanderer-signaling-server",
+  "version": "1.0.0",
+  "description": "Dedicated PeerJS signaling server for Elven Wanderer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "peer": "^1.0.2",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
